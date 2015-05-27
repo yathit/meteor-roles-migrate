@@ -1,3 +1,7 @@
+# GraphPaper object access permission
+
+GraphPaper provision an organization for each paying customer, becoming an `OrganizationAdmin`. Admin will assign user by their email. User will use projects, canvas and squares, as describe below.
+
 ## Roles
 
 * Guest  
