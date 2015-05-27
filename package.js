@@ -9,12 +9,14 @@ Package.describe({
 Package.onUse(function (api) {
     api.versionsFrom('1.1.0.2');
     api.use(['nicolaslopezj:roles']);
+    api.addFiles('roles.js', ['client', 'server']);
     api.addFiles('server/roles.js', 'server');
     api.addFiles('client/roles.js', 'client');
 });
 
 Package.onTest(function (api) {
     api.use(['nicolaslopezj:roles']);
+    api.addFiles('roles.js', ['client', 'server']);
     api.addFiles('server/roles.js', 'server');
     api.addFiles('client/roles.js', 'client');
     api.addFiles('tests/server-roles-test.js', 'server');
