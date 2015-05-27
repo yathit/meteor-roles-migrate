@@ -8,7 +8,7 @@ Package.describe({
 
 Package.onUse(function (api) {
     api.versionsFrom('1.1.0.2');
-    api.use(['nicolaslopezj:roles']);
+    api.use(['nicolaslopezj:roles@1.0.5']);
     api.addFiles('roles.js', ['client', 'server']);
     api.addFiles('server/roles.js', 'server');
     api.addFiles('client/roles.js', 'client');
