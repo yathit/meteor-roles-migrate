@@ -25,9 +25,16 @@ On nicolaslopezj:roles, each of these roles becomes action, for example:
     {
         userId: qx4RqmpJsZxfxA8bj, 
         roles: [
-          wCvSS2exrrGyZndYb.read, 
-          wCvSS2exrrGyZndYb.write, 
-          wCvSS2exrrGyZndYb.manage
+          canvas.read, 
+          canvas.write, 
+          canvas.manage
         ]
     }
     
+
+alanning:roles keeps list of roles in `roles` collection, while nicolaslopezj:roles just keep roles, actions in memory. There `wCvSS2exrrGyZndYb` is name of the `Role` and `wCvSS2exrrGyZndYb.read`, etc are actions.
+ 
+
+ 
+ 
+
